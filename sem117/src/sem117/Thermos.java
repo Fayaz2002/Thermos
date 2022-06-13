@@ -19,11 +19,6 @@ package sem117;
 			return Volume;
 		}
 		
-		double pourLiquid(double vol)
-		{
-			Volume=Volume-vol;
-			return Volume;
-		}
 		
 		void display()
 		{
@@ -39,7 +34,7 @@ package sem117;
 			
 			Thermos u1=new Thermos("Godrej","Orange Juice",0);
 			u1.addLiquid(0.5);
-			u1.pourLiquid(0.25);
+			
 			u1.display();
 
 		}
